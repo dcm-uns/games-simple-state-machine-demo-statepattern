@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Demo: Máquina de estados en videojuegos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Máquina de estados finita (enum + match)</h1>
+<div class="layout">
+  <div>
+    <canvas id="game" width="720" height="360"></canvas>
+    <p class="help">Mové el mouse para controlar al <b>jugador</b> (círculo azul). Click sobre el enemigo = dañarlo (HURT; 3 golpes = DEATH). Tecla <kbd>R</kbd> reinicia.</p>
+  </div>
+  <div>
+    <svg id="diagram" viewBox="0 0 360 380" width="360" height="380"></svg>
+    <pre id="log"></pre>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

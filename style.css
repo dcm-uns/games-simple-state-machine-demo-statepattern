@@ -1,0 +1,14 @@
+body { font-family: system-ui, sans-serif; background: #1b1d26; color: #eee; margin: 16px; }
+h1 { font-size: 20px; }
+.layout { display: flex; gap: 16px; flex-wrap: wrap; }
+canvas { background: #2c3040; border: 1px solid #555; cursor: crosshair; display: block; }
+.help { max-width: 720px; font-size: 13px; color: #aab; }
+kbd { background: #444; padding: 1px 5px; border-radius: 3px; }
+#diagram { background: #232635; border: 1px solid #555; }
+#log { background: #111; color: #9f9; font-size: 12px; height: 110px; overflow: auto; margin: 8px 0 0; padding: 6px; }
+.node circle { fill: #3a3f55; stroke: #889; stroke-width: 2; }
+.node text, .edge-label { fill: #eee; font-size: 12px; text-anchor: middle; }
+.node.active circle { fill: #e0a030; stroke: #fff; }
+.node.active text { fill: #000; font-weight: bold; }
+.edge { stroke: #889; stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+.edge-label { font-size: 10px; fill: #aab; }
